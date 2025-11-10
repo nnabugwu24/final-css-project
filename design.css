@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: solid;
+    
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/bg-header-desktop.png) ;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 110px;
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 40px;
+        font-weight: 500;
+        color: hsl(210, 10%, 33%);
+
+    }
+
+    h6 {
+        font-size: 20px;
+        color: hsl(171, 66%, 44%);
+        padding: 20px;
+        width: 600px;
+    }
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.yes {
+    background-color: hsl(172, 77%, 33%);
+    line-height: 45px;
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 0px 1px;
+}
+
+.me {
+    background-color: hsl(233, 100%, 69%);
+    line-height: 45px;
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 0px 1px;
+}
+
+.two {
+    h2 {
+        text-align: center;
+        padding-top: 150px;
+        font-size: 30px;
+        color: hsl(210, 10%, 33%);
+    }
+
+    p {
+        text-align: center;
+        font-size: 16px;
+        color: hsl(201, 11%, 66%);
+
+    }
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+    text-align: center;
+
+    img {
+        width: 700px;
+        height: 500px;
+    }
+
+    .search {
+        h5 {
+            font-size: 20px;
+            margin: 20px;
+            color: hsl(210, 10%, 33%);
+            text-align: left;
+            position: relative;
+            top: -60px;
+
+        }
+
+        span {
+            font-size: 16px;
+            color: hsl(201, 11%, 66%);
+            padding-bottom: 30px;
+            position: relative;
+            top: -60px;
+        }
+    }
+
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+        padding-top: 30px;
+        font-size: 30px;
+        padding-bottom: 20px;
+        color: hsl(210, 10%, 33%);
+    }
+
+    p {
+        font-size: 16px;
+        color: hsl(201, 11%, 66%);
+    }
+
+    img {
+        width: 800px;
+        padding-top: 80px;
+    }
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding-top: 30px;
+        font-size: 30px;
+        padding-bottom: 20px;
+        color: hsl(210, 10%, 33%);
+    }
+
+    p {
+        font-size: 16px;
+        color: hsl(201, 11%, 66%);
+        padding-bottom: 20px;
+    }
+}
+
+.plain {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 100px;
+
+    .create {
+        img {
+            width: 40px;
+            margin: 30px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: hsl(201, 11%, 66%);
+            padding-bottom: 20px;
+        }
+
+        span {
+            font-size: 18px;
+            width: 500px;
+
+        }
+    }
+}
+
+.six {
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-bottom: 50px;
+}
+
+.seven {
+    text-align: center;
+
+    h2 {
+        padding-top: -30px;
+        font-size: 30px;
+        padding-bottom: 20px;
+        color: hsl(210, 10%, 33%);
+    }
+
+    p {
+        font-size: 16px;
+        color: hsl(201, 11%, 66%);
+        padding-bottom: 20px;
+    }
+}
+
+.eight {
+    background-color: rgb(234, 230, 238);
+    display: flex;
+    flex-direction: row;
+    gap:150px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+   img {
+        
+        width: 50px;
+        height: 30px;
+        padding-top: 5px;
+        position:relative;
+        right: 70px;
+
+    
+        
+    }
+
+
+.footer { 
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+
+
+}
+.media {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 10px;
+    position: relative;
+    left: 250px;
+    img{
+        width: 28px;
+        height: 15px;
+    }
+
+}
+}
